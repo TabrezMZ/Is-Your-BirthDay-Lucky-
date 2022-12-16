@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+#container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 195px;
+    font-weight: 700;
+    background-color: blanchedalmond;
+    border: 2px solid red;
+}
+
+label {
+    margin: 10px;
+    color: rgb(66, 42, 6);
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    width: 195px;
+    background-color: blanchedalmond;
+}
